@@ -12,9 +12,9 @@ cmake .. -DCMAKE_C_COMPILER=arm-linux-gcc
 
 The following command shows the targets in CMakeLists.txt that can be compiled.
 ```bash
-make --build . --target help
+cmake --build . --target help
 ```
 
 ```bash
-make --build . --target xxx
+cmake --build . --target xxx
 ```
